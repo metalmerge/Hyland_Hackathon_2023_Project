@@ -1,0 +1,35 @@
+html, body {
+  background-color: #BC544B;
+  height: 100%;
+  width: 100%;
+}
+.jumbotron{
+  background-image: url("https://img.freepik.com/premium-photo/ripe-apples-branches-apple-tree-concept-harvesting-apples-panoramic-banner_341862-13818.jpg?w=2000");
+  background-position: center;
+}
+.shy_apple{
+  color:white;
+}
+.shy_apple:hover{
+ text-decoration: underline;
+  color: crimson;
+  transition-duration: .5s;
+  font-weight: lighter-bold;
+}
+.intro:hover{
+  border-radius: 10px;
+  border-color:lightgrey;
+  transition-duration: .2s;
+}
+
+.round{
+  border-radius: 8px;
+justify-content: center;
+  margin-left:auto;
+  margin-right: 50%;
+}
+
+.round:hover{
+  border-radius: 15px;
+  transition-duration: .3s;
+}
